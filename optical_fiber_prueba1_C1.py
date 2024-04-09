@@ -9,6 +9,6 @@ try:
         json_file = json.load(archivo)
     print("Archivo JSON cargado correctamente.")
 except FileNotFoundError:
-    print("El archivo JSON no se encontró en la ruta especificada.")
+    print("El archivo JSON no se encontró en la ruta  especificada.")
 except json.JSONDecodeError:
     print("Error al decodificar el archivo JSON.")
